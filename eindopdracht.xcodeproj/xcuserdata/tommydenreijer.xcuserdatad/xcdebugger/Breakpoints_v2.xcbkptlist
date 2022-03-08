@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63D56EF7-50E3-4ECE-A746-8F4F075299B4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8408C7C2-F746-48C5-8CD2-6D59033A5BE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindopdracht/ViewModel/MusicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "fetch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8408C7C2-F746-48C5-8CD2-6D59033A5BE0 - 11470aca96c47ad3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;eindopdracht.Music&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in eindopdracht.MusicManager.fetch() -&gt; ()"
+                  moduleName = "eindopdracht"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tommydenreijer/School/Avans/Leerjaar_3/Periode_1/IOs/eindopdracht/eindopdracht/eindopdracht/ViewModel/MusicManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "267">
+               </Location>
+               <Location
+                  uuid = "8408C7C2-F746-48C5-8CD2-6D59033A5BE0 - 11470aca96c47ad3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;eindopdracht.Music&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in eindopdracht.MusicManager.fetch() -&gt; ()"
+                  moduleName = "eindopdracht"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tommydenreijer/School/Avans/Leerjaar_3/Periode_1/IOs/eindopdracht/eindopdracht/eindopdracht/ViewModel/MusicManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "301">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64F70015-8986-40BD-B363-278E69D3D3D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindopdracht/ViewModel/MusicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

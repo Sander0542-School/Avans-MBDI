@@ -13,6 +13,15 @@
 		5D3A3B4527BD8ADA002E45D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3A3B4427BD8ADA002E45D8 /* Preview Assets.xcassets */; };
 		5D3A3B4727BD8ADA002E45D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B4627BD8ADA002E45D8 /* Persistence.swift */; };
 		5D3A3B4A27BD8ADA002E45D8 /* eindopdracht.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B4827BD8ADA002E45D8 /* eindopdracht.xcdatamodeld */; };
+		5D3A3B5427BEC9C0002E45D8 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B5327BEC9C0002E45D8 /* MusicManager.swift */; };
+		5D3A3B5627BEC9DC002E45D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B5527BEC9DC002E45D8 /* User.swift */; };
+		5D3A3B5927BED934002E45D8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B5827BED934002E45D8 /* ApiManager.swift */; };
+		5D3A3B5B27BEDA77002E45D8 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B5A27BEDA77002E45D8 /* Album.swift */; };
+		5D3A3B5D27C17042002E45D8 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B5C27C17042002E45D8 /* Music.swift */; };
+		5D3A3B6127C24F18002E45D8 /* MusiclistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B6027C24F18002E45D8 /* MusiclistView.swift */; };
+		5D3A3B6327C2511A002E45D8 /* FavoriteMusicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B6227C2511A002E45D8 /* FavoriteMusicListView.swift */; };
+		5D3A3B8427C25B1B002E45D8 /* AddFavoriteTrackSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B8327C25B1B002E45D8 /* AddFavoriteTrackSheetView.swift */; };
+		5D3A3B8627C27512002E45D8 /* FavoriteTrackViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3A3B8527C27512002E45D8 /* FavoriteTrackViewmodel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,15 @@
 		5D3A3B4427BD8ADA002E45D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5D3A3B4627BD8ADA002E45D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5D3A3B4927BD8ADA002E45D8 /* eindopdracht.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eindopdracht.xcdatamodel; sourceTree = "<group>"; };
+		5D3A3B5327BEC9C0002E45D8 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		5D3A3B5527BEC9DC002E45D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D3A3B5827BED934002E45D8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		5D3A3B5A27BEDA77002E45D8 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		5D3A3B5C27C17042002E45D8 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		5D3A3B6027C24F18002E45D8 /* MusiclistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusiclistView.swift; sourceTree = "<group>"; };
+		5D3A3B6227C2511A002E45D8 /* FavoriteMusicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMusicListView.swift; sourceTree = "<group>"; };
+		5D3A3B8327C25B1B002E45D8 /* AddFavoriteTrackSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavoriteTrackSheetView.swift; sourceTree = "<group>"; };
+		5D3A3B8527C27512002E45D8 /* FavoriteTrackViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTrackViewmodel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +73,11 @@
 		5D3A3B3C27BD8AD7002E45D8 /* eindopdracht */ = {
 			isa = PBXGroup;
 			children = (
+				5D3A3B5727BED913002E45D8 /* Network */,
+				5D3A3B5227BEC96D002E45D8 /* Views */,
+				5D3A3B5127BEC960002E45D8 /* ViewModel */,
+				5D3A3B5027BEC958002E45D8 /* Models */,
 				5D3A3B3D27BD8AD7002E45D8 /* eindopdrachtApp.swift */,
-				5D3A3B3F27BD8AD7002E45D8 /* ContentView.swift */,
 				5D3A3B4127BD8ADA002E45D8 /* Assets.xcassets */,
 				5D3A3B4627BD8ADA002E45D8 /* Persistence.swift */,
 				5D3A3B4827BD8ADA002E45D8 /* eindopdracht.xcdatamodeld */,
@@ -71,6 +92,44 @@
 				5D3A3B4427BD8ADA002E45D8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D3A3B5027BEC958002E45D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A3B5527BEC9DC002E45D8 /* User.swift */,
+				5D3A3B5A27BEDA77002E45D8 /* Album.swift */,
+				5D3A3B5C27C17042002E45D8 /* Music.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D3A3B5127BEC960002E45D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A3B5327BEC9C0002E45D8 /* MusicManager.swift */,
+				5D3A3B8527C27512002E45D8 /* FavoriteTrackViewmodel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D3A3B5227BEC96D002E45D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A3B3F27BD8AD7002E45D8 /* ContentView.swift */,
+				5D3A3B6027C24F18002E45D8 /* MusiclistView.swift */,
+				5D3A3B6227C2511A002E45D8 /* FavoriteMusicListView.swift */,
+				5D3A3B8327C25B1B002E45D8 /* AddFavoriteTrackSheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D3A3B5727BED913002E45D8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A3B5827BED934002E45D8 /* ApiManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +203,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3A3B4727BD8ADA002E45D8 /* Persistence.swift in Sources */,
+				5D3A3B8627C27512002E45D8 /* FavoriteTrackViewmodel.swift in Sources */,
+				5D3A3B5427BEC9C0002E45D8 /* MusicManager.swift in Sources */,
 				5D3A3B4027BD8AD7002E45D8 /* ContentView.swift in Sources */,
+				5D3A3B5927BED934002E45D8 /* ApiManager.swift in Sources */,
 				5D3A3B4A27BD8ADA002E45D8 /* eindopdracht.xcdatamodeld in Sources */,
+				5D3A3B5D27C17042002E45D8 /* Music.swift in Sources */,
+				5D3A3B6327C2511A002E45D8 /* FavoriteMusicListView.swift in Sources */,
+				5D3A3B5627BEC9DC002E45D8 /* User.swift in Sources */,
 				5D3A3B3E27BD8AD7002E45D8 /* eindopdrachtApp.swift in Sources */,
+				5D3A3B6127C24F18002E45D8 /* MusiclistView.swift in Sources */,
+				5D3A3B8427C25B1B002E45D8 /* AddFavoriteTrackSheetView.swift in Sources */,
+				5D3A3B5B27BEDA77002E45D8 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

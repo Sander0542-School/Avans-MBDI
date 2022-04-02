@@ -18,16 +18,13 @@ struct MusiclistView: View {
 				ForEach(manager.tracks, id: \.self){ user in
 					ForEach(user.track, id: \.self){ track in
 						
-						NavigationLink(destination: Text(track.artist.name)) {
+						NavigationLink(destination: MusicDetailView(track: track)) {
 							Text(track.name)
-							
 						}
 					}
-					
 				}
-
 			}
-			.navigationBarTitle(Text("items"), displayMode: .large)
+			.navigationBarTitle(Text("Music"), displayMode: .large)
 		}
 		.task{
 			await manager.fetch()

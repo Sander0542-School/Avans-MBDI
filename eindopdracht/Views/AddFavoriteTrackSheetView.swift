@@ -23,7 +23,7 @@ struct AddFavoriteSheetView: View {
 			Form {
 				Section(header: Text("TRACK")) {
 					TextField("Track", text: $track)
-					TextField("Artis", text: $artist)
+					TextField("Artist", text: $artist)
 				}
 				Section {
 					Button("Add track"){

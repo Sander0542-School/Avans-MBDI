@@ -23,7 +23,7 @@ struct FavoriteMusicListView: View {
 			List {
 				ForEach(items) { item in
 					NavigationLink {
-						Text(item.artist ?? "No Artist found")
+						FavoriteMusicDetailView(artist: item.artist ?? "No Artist found")
 					} label: {
 						Text(item.name ?? "No Name found")
 					}
@@ -42,7 +42,6 @@ struct FavoriteMusicListView: View {
 					})
 				}
 			}
-//			Text("Select an item")
 				.navigationBarTitle(Text("Favorite Tracks"), displayMode: .large)
 		}
 		
@@ -60,8 +59,6 @@ struct FavoriteMusicListView: View {
 			do {
 				try viewContext.save()
 			} catch {
-				// Replace this implementation with code to handle the error appropriately.
-				// fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
 				let nsError = error as NSError
 				fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
 			}

@@ -25,7 +25,6 @@ struct FavoriteMusicDetailView: View {
 			
 			Divider()
 			
-			
 			Spacer()
 			Button("Speak") {
 				viewmodel.readText(artist)

@@ -14,8 +14,8 @@
             filePath = "eindopdracht/ViewModel/MusicManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "fetch()"
             landmarkType = "7">
             <Locations>

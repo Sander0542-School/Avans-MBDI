@@ -14,6 +14,15 @@ struct MusiclistView: View {
 	
     var body: some View {
 		NavigationView{
+			if !manager.isConnected {
+				VStack {
+					Text(manager.connectionDescription)
+						.font(.system(size: 18, weight: .semibold))
+						.foregroundColor(.white)
+						.multilineTextAlignment(.center)
+						.padding()
+				}
+			}else{
 			List{
 				ForEach(manager.tracks, id: \.self){ user in
 					ForEach(user.track, id: \.self){ track in
@@ -23,8 +32,9 @@ struct MusiclistView: View {
 						}
 					}
 				}
+			}.navigationBarTitle(Text("Music"), displayMode: .large)
 			}
-			.navigationBarTitle(Text("Music"), displayMode: .large)
+			
 		}
 		.task{
 			await manager.fetch()
